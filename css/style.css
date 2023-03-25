@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  color: white;
+ /* padding: 80px; */
+}
+
+
+
+.container {
+  width: 100%;
+  /* height: 10vh; */
+  /* background: #b1d8fc; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  color: #bbe8ff;
+  text-decoration: none;
+}
+nav {
+  border-radius: 9px;
+  padding: 30px;
+  
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+ 
+}
+nav ul li:after {
+  content: "";
+  width: 0;
+  height: 3px;  
+  background: #21AA47;
+  position: relative;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+nav ul li:hover::after {
+  width: 100%;
+}
+
+
+p
+{
+  color: #d3edff;
+  font-size: 1.2rem;  
+  letter-spacing: 0.1rem;
+  line-height: 1.8rem;
+  width: 90%;
+}
+
+.mainDiv h1,
+h1,
+h2,
+h3{
+  font-size: 180px;
+  color: #0072AA;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #21AA47 8%,
+    #78ADD2 30%,
+    #0072AA 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+         
+button{
+  background-image: linear-gradient(to right, #21AA47 8%, #78ADD2 30%, #0072AA 50%  100%);
+  margin: 10px;
+  font-size: 1.2rem;
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: inline-block;
+}
+
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #d3edff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+footer{
+  color: white;
+}
+
+
+ 
+
